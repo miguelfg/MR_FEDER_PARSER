@@ -1,5 +1,4 @@
 # Created by .gitignore support plugin (hsz.mobi)
-### Python template
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -13,6 +12,7 @@ env/
 build/
 develop-eggs/
 dist/
+downloads/
 eggs/
 lib/
 lib64/
@@ -53,3 +53,7 @@ docs/_build/
 
 # PyBuilder
 target/
+
+#DATA FILES EXTENSIONS
+.pdf
+.txt
